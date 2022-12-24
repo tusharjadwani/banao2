@@ -6,7 +6,7 @@ import axios from 'axios';
 function App() {
 
   const [data, setData] = useState();
-  const [dataDetails, setDataDetails] = useState();
+  const [dataDetails, setDataDetails] = useState([]);
   const [loading, setLoading] = useState(true);
   const [loadingDetail, setLoadingDetail] = useState(true);
 
