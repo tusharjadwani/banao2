@@ -81,7 +81,7 @@ function App() {
                       <ul className="list-group">
                         <li className="list-group-item">{element.Bio}</li>
                         <li className="list-group-item">Full Name : {element.profile.firstName + " " + element.profile.lastName}</li>
-                        <li className="list-group-item">Job Title : {element.jobTitle}</li>
+                        <li className ="list-group-item">Job Title : {element.jobTitle}</li>
                         <li className="list-group-item">Email : {element.profile.email}</li>
                       </ul>
                     </div>
